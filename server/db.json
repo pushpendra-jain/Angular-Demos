@@ -1,0 +1,79 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "first Note",
+      "text": "First Note Text"
+    },
+    {
+      "id": 2,
+      "title": "Second Note",
+      "text": "Second Note Text"
+    },
+    {
+      "id": 3,
+      "title": "Third Note",
+      "text": "Third Note Text"
+    },
+    {
+      "title": "new",
+      "text": "new note text",
+      "id": 4
+    },
+    {
+      "title": "dsd",
+      "text": "fdf",
+      "id": 5
+    },
+    {
+      "title": "fsdf",
+      "text": "fdsfdsf",
+      "id": 6
+    },
+    {
+      "title": "fsdfds",
+      "text": "dsfdf",
+      "id": 7
+    },
+    {
+      "title": "more note added",
+      "text": "more notte txetfxtxf",
+      "id": 8
+    },
+    {
+      "title": "1",
+      "text": "tnjshdjhsjdhs",
+      "id": 9
+    },
+    {
+      "text": "sdsd",
+      "title": "sdsdsdsdsdsds",
+      "id": 10
+    },
+    {
+      "title": "sdsa4545",
+      "text": "dssads545 text",
+      "id": 11
+    },
+    {
+      "title": "test note",
+      "text": "Test Note add",
+      "id": 12
+    },
+    {
+      "title": "comple SPA1",
+      "text": "complete SPA 1 reminder note",
+      "id": 13
+    },
+    {
+      "title": "Angular SPA using Service",
+      "text": "Angular SPA using Service note",
+      "id": 14
+    },
+    {
+      "title": "hello",
+      "text": "hello note using services",
+      "id": 15
+    }
+  ]
+}
