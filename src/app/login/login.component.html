@@ -1,0 +1,16 @@
+<form [formGroup] = "loginForm" (ngSubmit) = "signIn()">
+  <div>
+    <label for="username">Username</label>
+    <input type="text" id="username" placeholder="enter username" formControlName="username">
+    <small>{{getUserNameRequiredMessage()}}</small>
+  </div>
+  <div>
+    <label for="password">Username</label>
+    <input type="password" id="password" placeholder="enter password" formControlName="password">
+    <small>{{getPasswordRequiredMessage()}}</small>
+    <small>{{getPasswordMinLengthMessage()}}</small>
+  </div>
+  <div>
+    <input type="submit" value="Sign In" [disabled]='!loginForm.valid'>
+  </div>
+</form>

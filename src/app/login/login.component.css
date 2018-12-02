@@ -1,0 +1,18 @@
+form {
+    border: 2px solid darkgreen;
+    width: 50vw;
+    display: flex;
+
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+label{
+    display: block;
+}
+
+small{
+    color: red;
+}

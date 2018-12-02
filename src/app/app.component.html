@@ -24,4 +24,11 @@
         <mat-card-content>{{note.text}}</mat-card-content>
     </mat-card>
 </div>
+<app-login></app-login>
 <app-note></app-note>
+
+<nav>
+    <a routerLink='/login'>login</a> |
+    <a routerLink='/dashboard'>Dasboard</a>
+</nav>
+<router-outlet></router-outlet>

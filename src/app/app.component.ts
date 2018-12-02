@@ -28,14 +28,15 @@ export class AppComponent {
   takeNote() { 
     console.log(`Note Title : ${this.note.title}`);
     console.log(`Note text : ${this.note.text}`);
-
+    this.notes.push(this.note);// optimistic about addtion
     this.notesService.addNote(this.note)
       .subscribe(data => {
-        this.notes.push(data);
         console.log('notes added...');
         this.note = new Note();
       }, error => {
-        console.log(error);
+        console.log(error);// Optimistic addtion failed, remved added note from list
+        const noteIndex = this.notes.findIndex(note => note.title === this.note.title);
+        this.notes.slice(noteIndex, 1);
       });
     console.log(this.notes); 
   }
